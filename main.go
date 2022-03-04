@@ -23,6 +23,7 @@ func main() {
 	if boardGame.CheckDraw() {
 		fmt.Println("It's a draw!")
 	} else {
-		fmt.Printf("%v is The Winner!!", currentPlayer.GetName())
+		fmt.Printf("%v is The Winner!!\n", currentPlayer.GetName())
 	}
+	boardGame.PrintBoard()
 }

@@ -61,7 +61,7 @@ func (gb GameBoard) CheckDraw() bool {
 			emptyGrids++
 		}
 	}
-	return emptyGrids < 0
+	return emptyGrids <= 0
 }
 
 func (gb GameBoard) RestartBoard() {
